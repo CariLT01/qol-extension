@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "QOL Extension",
+  "version": "0.1",
+  "description": "Various quality fixes and improvements for many sites",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*Doc.aspx*"],
+      "js": ["src/word.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": []
+}
