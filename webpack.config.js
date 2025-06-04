@@ -3,6 +3,7 @@ const path = require("path");
 module.exports = {
   entry: {
     word: "./src/word.ts",
+    redirect: "./src/redirect.ts"
   },
   output: {
     path: path.resolve(__dirname, "extension/src"),

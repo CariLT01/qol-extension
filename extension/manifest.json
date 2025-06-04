@@ -12,7 +12,15 @@
         "src/word.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://*/*Doc2.aspx*"
+      ],
+      "js": [
+        "src/redirect.js"
+      ],
+      "run_at": "document_start"      
     }
-  ],
-  "permissions": []
+  ]
 }

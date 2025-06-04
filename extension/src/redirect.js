@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){const{origin:o,pathname:c,search:e,hash:n}=window.location;if(c.endsWith("/Doc2.aspx")){console.warn("Redirecting from /Doc2.aspx to /Doc.aspx");const s=o+c.replace(/\/Doc2\.aspx$/,"/Doc.aspx")+e+n;window.location.replace(s)}else console.warn("URL does NOT end with /Doc2.aspx, no redirect")}()})();
